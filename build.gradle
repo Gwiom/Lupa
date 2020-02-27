@@ -20,6 +20,9 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    
+	compile fileTree(dir: 'libs', include: '*.jar')
+    
 }
 
 // In this section you declare where to find the dependencies of your project
